@@ -1,0 +1,34 @@
+{
+	"kind":"win", 
+	"wide":	300,
+	"high":	400,
+	"bg" : "grey",
+	"fg" : "black",
+	"fullscreen" : ` mobile? `,
+	"center": true,
+	"title": "8th words search assistant",
+	"close": "quit",
+	"children":
+	[
+		{
+			"kind":	"edit",
+			"name": "keyword",
+			"justify": ["left", "vcenter"],
+			"bounds": "5, 5, parent.width - 5, 25",
+			"multi": false,
+			"kbd": "text",
+			"key-pressed": "keypressed"
+		},
+		{
+			"kind":	"edit",
+			"name" : "content",
+			"justify": ["left", "top"],
+			"bounds": "5, 30, parent.width - 5, parent.height - 5",
+			"multi" : true,
+			"wrap" : true,
+			"select-all" : true,
+			"auto-scroll" : true,
+			"scroll-visible" : true
+		}
+	]
+}

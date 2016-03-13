@@ -1,0 +1,23 @@
+{
+   "perms":
+   [
+   ],
+   "ignore-paths":
+   [
+      ""
+   ],
+   "ignore-files":
+   [
+      ""
+   ],
+   "gui":true,
+   "osx":true,
+   "source":"8thelper.8th",
+   "windows":true,
+   "linux":true,
+   "app-name":"8thelper",
+   "app-ver":"1.0",
+   "android":true,
+   "rpi":true,
+   "ios":true
+}
