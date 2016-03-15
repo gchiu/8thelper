@@ -19,21 +19,19 @@ $ 8thelper
 After install 8th, you can build it by:
 
 $ 8th 8th_istall_path/bin/build -g .
-Generating
-Checking license
-Building binary package
-Windows
-OS/X
-Linux
-trueAndroid
-Please edit the AndroidManifest.xml in the out/android folder, and run 'ant' to create the APK
-iOS
-RPI
+Generating  
+Checking license  
+Building binary package   
+Windows   
+OS/X   
+Linux   
+Android   
+iOS  
+RPI  
 
 Done!
 
 As you can see, 8th's binary can support Windows, OS/X, Linux, Android, iOS and RPi Simultaneously, using the same code.
-
 
 ## screenshots
 
