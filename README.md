@@ -18,7 +18,7 @@ $ 8thelper
 
 After install 8th, you can build it by:
 
-$ 8th 8th_istall_path/bin/build -g .
+$ 8th 8th_istall_path/bin/build -g .   
 Generating  
 Checking license  
 Building binary package   
