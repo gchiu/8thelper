@@ -39,6 +39,4 @@ As you can see, 8th's binary can support Windows, OS/X, Linux, Android, iOS and 
 
 Except the main window, the program's gui widgets are same.
 
-![win32](https://content-na.drive.amazonaws.com/cdproxy/templink/IYdghuXIVpDCULjuTdVchxuesuN8B8vqJ6HbIouWMLkE0Xnc3/alt/thumb?viewBox=1280)
-
-![linux32](https://content-na.drive.amazonaws.com/cdproxy/templink/0Os5fwAs8G17-cVkTnezfiPgafzH08vf5Q8VviGaygME0Xnc3/alt/thumb?viewBox=1280)
+[some screenshots on different platforms](https://github.com/chengjianwen/8thelper/wiki)
