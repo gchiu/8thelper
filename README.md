@@ -12,15 +12,12 @@ $ 8th helper.8th
 
 After build, you can execute it directlly at command prompt, need not install 8th.
 
-[code]
 $ 8thelper
-[/code]
 
 ## Building
 
 After install 8th, you can build it by:
 
-[code]
 $ 8th 8th_istall_path/bin/build -g .
 Generating
 Checking license
@@ -34,7 +31,6 @@ iOS
 RPI
 
 Done!
-[/code]
 
 As you can see, 8th's binary can support Windows, OS/X, Linux, Android, iOS and RPi Simultaneously, using the same code.
 
