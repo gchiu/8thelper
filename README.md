@@ -6,11 +6,13 @@
 
 ## Running
 
-Before build, you must install 8th to run the program:
+you must install 8th to run the program.
+
+Before build, you should running the program by 8th:
 
 $ 8th helper.8th
 
-After build, you can execute it directlly at command prompt, need not install 8th.
+After build, you can execute it directlly at command prompt.
 
 $ 8thelper
 
