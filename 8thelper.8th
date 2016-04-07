@@ -21,15 +21,15 @@ var db
 	swap g:text g:invalidate ;
 
 : sqlgen \ keyword -- sql
-	dup s:len if
+	s:len if
 		":" s:/ a:rev
 	else
 		drop []
 	then
 	( "%" swap s:+ "%" s:+ ) a:map
-	dup >r a:open r> a:len
+	a:len >r a:open
 	[ "select cls, num, st, desc from words limit 0", "select cls, nm, st, desc from words where nm like '%s'", "select cls, nm, st, desc from words where cls='%s' and nm like '%s'", ]
-	swap a:@ nip
+	r> a:@ nip
 	s:strfmt ;
 
 : search \ keyword -- text
@@ -46,7 +46,9 @@ var db
 	0x08 n:= if
 		drop
 		g:text? s:len 0 n:> if
-			g:text? dup s:len 1 n:- 1 s:- g:text
+			s:len 1 n:- 1 s:- g:text
+		else
+			drop
 		then
 	else
 		dup 0x21 0x7e n:between if
@@ -57,8 +59,6 @@ var db
 		then
 	then 
 	g:text? search update ;
-
-
 
 : app:main
 	ok? if
