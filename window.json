@@ -25,6 +25,7 @@
 			"justify": ["left", "top"],
 			"bounds": "5, 30, parent.width - 5, parent.height - 5",
 			"multi" : true,
+			"ro" : true,
 			"wrap" : true,
 			"select-all" : true,
 			"auto-scroll" : true,
