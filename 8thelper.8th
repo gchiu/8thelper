@@ -1,3 +1,5 @@
+\ vim: syntax=forth
+
 true app:isgui !
 
 var db
